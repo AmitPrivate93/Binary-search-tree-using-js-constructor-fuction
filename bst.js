@@ -1,14 +1,14 @@
 
 var values = [90,3,21,45,32,11,34,2,555,65,-1]
 
-//leaf node constructer function
+//leaf node constructor function
 function leaf_node(value,left,right){
     this.value = value
     this.left = left
     this.right =right
 }
 
-//constructer function to construct tree
+//constructor function to construct tree
 function bst(){
     this.root = null
     this.head = null
